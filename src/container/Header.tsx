@@ -27,9 +27,7 @@ function Header(prop: { navs: Nav[] }) {
         </a>
       </div>
       <h1 className="title">
-        <Link to="/" style={{ color: "#fff" }}>
-          SVG Turorial In 24
-        </Link>
+        <Link to="/">SVG Turorial In 24</Link>
       </h1>
       <h3>{currentNav?.title}</h3>
     </header>
