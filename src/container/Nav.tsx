@@ -10,7 +10,7 @@ function Nav(prop: { navs: Nav[] }) {
   const { navs } = prop;
 
   return (
-    <nav>
+    <nav style={{ maxWidth: "500px", margin: "0 auto" }}>
       <ul style={{ textAlign: "left" }}>
         {navs.map((nav) => (
           <li key={nav.id}>
