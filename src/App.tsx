@@ -7,6 +7,7 @@ import Nav from "./container/Nav";
 import Day1 from "./pages/Day1";
 import Day2 from "./pages/Day2";
 import Day3 from "./pages/Day3";
+import Day4 from "./pages/Day4";
 
 function App() {
   const navs = [
@@ -25,6 +26,11 @@ function App() {
       title: "Day 3: How to Make a Gingerbread Figure with SVG",
       to: "/day3",
     },
+    {
+      id: 4,
+      title: "Day 4: How to Build a House with SVG",
+      to: "/day4",
+    },
   ];
 
   return (
@@ -35,6 +41,7 @@ function App() {
         <Route path="/day1" Component={Day1} />
         <Route path="/day2" Component={Day2} />
         <Route path="/day3" Component={Day3} />
+        <Route path="/day4" Component={Day4} />
       </Routes>
     </>
   );
